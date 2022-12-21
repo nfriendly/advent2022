@@ -189,8 +189,18 @@ var Day16 = Day{
 	PartBTests:  day16TestsPartB,
 	PuzzleInput: day16PuzzleInput,
 	PartAPrompt: "Work out the steps to release the most pressure in 30 minutes. What is the most pressure you can release?",
-	PartBPrompt: "TODO",
+	PartBPrompt: "With you and an elephant working together for 26 minutes, what is the most pressure you could release?",
 	Solver:      Day16Solver{},
 }
+var Day17 = Day{
+	Number:      17,
+	PartATests:  day17TestsPartA,
+	PartBTests:  day17TestsPartB,
+	PuzzleInput: day17PuzzleInput,
+	PartAPrompt: "How many units tall will the tower of rocks be after 2022 rocks have stopped falling?",
+	PartBPrompt: "TODO",
+	Solver:      Day17Solver{},
+}
 
-var Days = []Day{{}, Day1, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9, Day10, Day11, Day12, Day13, Day14, Day15, Day16}
+var Days = []Day{{}, Day1, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9, Day10, Day11, Day12,
+	Day13, Day14, Day15, Day16, Day17}

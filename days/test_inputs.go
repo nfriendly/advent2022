@@ -652,3 +652,9 @@ Valve GG has flow rate=0; tunnels lead to valves FF, HH
 Valve HH has flow rate=22; tunnel leads to valve GG
 Valve II has flow rate=0; tunnels lead to valves AA, JJ
 Valve JJ has flow rate=21; tunnel leads to valve II`, "1651"}}
+
+var day17TestsPartA = []SinglePartTest{
+	{`>>><<><>><<<>><>>><<<>>><<<><<<>><>><<>>`, "3068"}}
+
+var day17TestsPartB = []SinglePartTest{
+	{`>>><<><>><<<>><>>><<<>>><<<><<<>><>><<>>`, "3068"}}
