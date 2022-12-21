@@ -1,0 +1,8 @@
+Website = "https://example.com/advent2022"
+
+[Details]
+Icon = "Icon.png"
+Name = "Friendly's Advent 2022"
+ID = "com.example.advent2022"
+Version = "1.0.0"
+Build = 1
