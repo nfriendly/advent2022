@@ -93,3 +93,10 @@ func TestDay16(t *testing.T) {
 		t.Error(err.Error())
 	}
 }
+
+func TestDay17(t *testing.T) {
+	_, _, err := days.Days[17].Solver.SolvePartA(days.Days[17].PartATests[0].Input)
+	if err != nil {
+		t.Error(err.Error())
+	}
+}
