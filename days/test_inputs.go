@@ -658,3 +658,39 @@ var day17TestsPartA = []SinglePartTest{
 
 var day17TestsPartB = []SinglePartTest{
 	{`>>><<><>><<<>><>>><<<>>><<<><<<>><>><<>>`, "1514285714288"}}
+
+var day18TestsPartA = []SinglePartTest{{`2,2,2
+1,2,2
+3,2,2
+2,1,2
+2,3,2
+2,2,1
+2,2,3
+2,2,4
+2,2,6
+1,2,5
+3,2,5
+2,1,5
+2,3,5`, "64"}}
+
+var day18TestsPartB = []SinglePartTest{{`2,2,2
+1,2,2
+3,2,2
+2,1,2
+2,3,2
+2,2,1
+2,2,3
+2,2,4
+2,2,6
+1,2,5
+3,2,5
+2,1,5
+2,3,5`, "58"}}
+
+var day19TestsPartA = []SinglePartTest{{`Blueprint 1: Each ore robot costs 4 ore. Each clay robot costs 2 ore. Each obsidian robot costs 3 ore and 14 clay. Each geode robot costs 2 ore and 7 obsidian.
+Blueprint 2: Each ore robot costs 2 ore. Each clay robot costs 3 ore. Each obsidian robot costs 3 ore and 8 clay. Each geode robot costs 3 ore and 12 obsidian.`,
+	"33"}}
+
+var day19TestsPartB = []SinglePartTest{{`Blueprint 1: Each ore robot costs 4 ore. Each clay robot costs 2 ore. Each obsidian robot costs 3 ore and 14 clay. Each geode robot costs 2 ore and 7 obsidian.
+Blueprint 2: Each ore robot costs 2 ore. Each clay robot costs 3 ore. Each obsidian robot costs 3 ore and 8 clay. Each geode robot costs 3 ore and 12 obsidian.`,
+	"33"}}

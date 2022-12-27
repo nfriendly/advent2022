@@ -201,6 +201,24 @@ var Day17 = Day{
 	PartBPrompt: "TODO",
 	Solver:      Day17Solver{},
 }
+var Day18 = Day{
+	Number:      18,
+	PartATests:  day18TestsPartA,
+	PartBTests:  day18TestsPartB,
+	PuzzleInput: day18PuzzleInput,
+	PartAPrompt: "What is the surface area of your scanned lava droplet?",
+	PartBPrompt: "What is the exterior surface area of your scanned lava droplet?",
+	Solver:      Day18Solver{},
+}
+var Day19 = Day{
+	Number:      19,
+	PartATests:  day19TestsPartA,
+	PartBTests:  day19TestsPartB,
+	PuzzleInput: day19PuzzleInput,
+	PartAPrompt: "What do you get if you add up the quality level of all of the blueprints in your list?",
+	PartBPrompt: "TODO",
+	Solver:      Day19Solver{},
+}
 
 var Days = []Day{{}, Day1, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9, Day10, Day11, Day12,
-	Day13, Day14, Day15, Day16, Day17}
+	Day13, Day14, Day15, Day16, Day17, Day18, Day19}
