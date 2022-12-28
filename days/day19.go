@@ -57,7 +57,46 @@ func (d Day19Solver) SolvePartA(puzzleInput string) (string, fyne.CanvasObject, 
 }
 
 func (d Day19Solver) SolvePartB(puzzleInput string) (string, fyne.CanvasObject, error) {
-	return "", nil, nil
+	lines := strings.Split(puzzleInput, "\n")
+	if len(lines) > 3 {
+		lines = lines[:3]
+	}
+	maxGeodes := make(plotter.Values, 0, len(lines))
+
+	for _, line := range lines {
+		bp, err := parseBlueprint(line)
+		bp.maxMinutes = 32
+		if err != nil {
+			return "", nil, err
+		}
+		maxGeode := calculateMaxGeodes(bp)
+		maxGeodes = append(maxGeodes, float64(maxGeode))
+
+	}
+	// todo calculate quality level sum
+	totalQuality := 1
+	for _, g := range maxGeodes {
+		totalQuality *= int(g)
+	}
+	totalQualityLevel := strconv.Itoa(totalQuality)
+
+	plt := plot.New()
+	plt.Title.Text = "Maximum Geodes Produced"
+	plt.X.Label.Text = "Blueprint Number"
+	plt.Y.Label.Text = "Maxiumum Geodes"
+
+	// TODO: adjust this value to make bar chart look nice
+	w := vg.Points(10)
+	bars, err := plotter.NewBarChart(maxGeodes, w)
+	if err != nil {
+		return totalQualityLevel, nil, err
+	}
+
+	plt.Add(bars)
+
+	img, err := plotToImage(plt, "day19partB.png")
+
+	return totalQualityLevel, img, err
 }
 
 type geodeBlueprint struct {
