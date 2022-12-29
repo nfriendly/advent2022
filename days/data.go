@@ -216,9 +216,18 @@ var Day19 = Day{
 	PartBTests:  day19TestsPartB,
 	PuzzleInput: day19PuzzleInput,
 	PartAPrompt: "What do you get if you add up the quality level of all of the blueprints in your list?",
-	PartBPrompt: "TODO",
+	PartBPrompt: "Determine the largest number of geodes you could open using each of the first three blueprints. What do you get if you multiply these numbers together?",
 	Solver:      Day19Solver{},
+}
+var Day20 = Day{
+	Number:      20,
+	PartATests:  day20TestsPartA,
+	PartBTests:  day20TestsPartB,
+	PuzzleInput: day20PuzzleInput,
+	PartAPrompt: "Mix your encrypted file exactly once. What is the sum of the three numbers that form the grove coordinates?",
+	PartBPrompt: "Apply the decryption key and mix your encrypted file ten times. What is the sum of the three numbers that form the grove coordinates?",
+	Solver:      Day20Solver{},
 }
 
 var Days = []Day{{}, Day1, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9, Day10, Day11, Day12,
-	Day13, Day14, Day15, Day16, Day17, Day18, Day19}
+	Day13, Day14, Day15, Day16, Day17, Day18, Day19, Day20}

@@ -694,3 +694,19 @@ Blueprint 2: Each ore robot costs 2 ore. Each clay robot costs 3 ore. Each obsid
 var day19TestsPartB = []SinglePartTest{{`Blueprint 1: Each ore robot costs 4 ore. Each clay robot costs 2 ore. Each obsidian robot costs 3 ore and 14 clay. Each geode robot costs 2 ore and 7 obsidian.
 Blueprint 2: Each ore robot costs 2 ore. Each clay robot costs 3 ore. Each obsidian robot costs 3 ore and 8 clay. Each geode robot costs 3 ore and 12 obsidian.`,
 	"3472"}}
+
+var day20TestsPartA = []SinglePartTest{{`1
+2
+-3
+3
+-2
+0
+4`, "3"}}
+
+var day20TestsPartB = []SinglePartTest{{`1
+2
+-3
+3
+-2
+0
+4`, "1623178306"}}
