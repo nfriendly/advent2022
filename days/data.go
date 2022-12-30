@@ -228,6 +228,15 @@ var Day20 = Day{
 	PartBPrompt: "Apply the decryption key and mix your encrypted file ten times. What is the sum of the three numbers that form the grove coordinates?",
 	Solver:      Day20Solver{},
 }
+var Day21 = Day{
+	Number:      21,
+	PartATests:  day21TestsPartA,
+	PartBTests:  day21TestsPartB,
+	PuzzleInput: day21PuzzleInput,
+	PartAPrompt: "What number will the monkey named root yell?",
+	PartBPrompt: "What number do you yell to pass root's equality test?",
+	Solver:      Day21Solver{},
+}
 
 var Days = []Day{{}, Day1, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9, Day10, Day11, Day12,
-	Day13, Day14, Day15, Day16, Day17, Day18, Day19, Day20}
+	Day13, Day14, Day15, Day16, Day17, Day18, Day19, Day20, Day21}

@@ -115,3 +115,12 @@ func TestDay20(t *testing.T) {
 		t.Error(err.Error())
 	}
 }
+
+func TestDay21(t *testing.T) {
+	// _, _, err := days.Days[21].Solver.SolvePartB(days.Days[21].PartBTests[0].Input)
+	_, _, err := days.Days[21].Solver.SolvePartB(days.Days[21].PuzzleInput)
+
+	if err != nil {
+		t.Error(err.Error())
+	}
+}
