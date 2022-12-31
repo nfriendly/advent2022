@@ -742,3 +742,42 @@ pppw: cczh / lfqf
 lgvd: ljgn * ptdq
 drzm: hmdt - zczc
 hmdt: 32`, "301"}}
+
+var day22TestsPartA = []SinglePartTest{{`        ...#
+        .#..
+        #...
+        ....
+...#.......#
+........#...
+..#....#....
+..........#.
+        ...#....
+        .....#..
+        .#......
+        ......#.
+
+10R5L5R10L4R5L5`, "6032"}}
+
+var day22TestsPartB = []SinglePartTest{{`        ...#
+        .#..
+        #...
+        ....
+...#.......#
+........#...
+..#....#....
+..........#.
+        ...#....
+        .....#..
+        .#......
+        ......#.
+
+10R5L5R10L4R5L5`, "5031"}}
+
+var day23TestsPartA = []SinglePartTest{{``, ""}}
+var day23TestsPartB = []SinglePartTest{{``, ""}}
+
+var day24TestsPartA = []SinglePartTest{{``, ""}}
+var day24TestsPartB = []SinglePartTest{{``, ""}}
+
+var day25TestsPartA = []SinglePartTest{{``, ""}}
+var day25TestsPartB = []SinglePartTest{{``, ""}}

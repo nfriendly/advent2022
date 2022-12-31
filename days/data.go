@@ -237,6 +237,42 @@ var Day21 = Day{
 	PartBPrompt: "What number do you yell to pass root's equality test?",
 	Solver:      Day21Solver{},
 }
+var Day22 = Day{
+	Number:      22,
+	PartATests:  day22TestsPartA,
+	PartBTests:  day22TestsPartB,
+	PuzzleInput: day22PuzzleInput,
+	PartAPrompt: "Follow the path given in the monkeys' notes. What is the final password?",
+	PartBPrompt: "Fold the map into a cube, then follow the path given in the monkeys' notes. What is the final password?",
+	Solver:      Day22Solver{},
+}
+var Day23 = Day{
+	Number:      23,
+	PartATests:  day23TestsPartA,
+	PartBTests:  day23TestsPartB,
+	PuzzleInput: day23PuzzleInput,
+	PartAPrompt: "TODO",
+	PartBPrompt: "TODO",
+	Solver:      Day23Solver{},
+}
+var Day24 = Day{
+	Number:      24,
+	PartATests:  day24TestsPartA,
+	PartBTests:  day24TestsPartB,
+	PuzzleInput: day24PuzzleInput,
+	PartAPrompt: "TODO",
+	PartBPrompt: "TODO",
+	Solver:      Day24Solver{},
+}
+var Day25 = Day{
+	Number:      25,
+	PartATests:  day25TestsPartA,
+	PartBTests:  day25TestsPartB,
+	PuzzleInput: day25PuzzleInput,
+	PartAPrompt: "TODO",
+	PartBPrompt: "TODO",
+	Solver:      Day25Solver{},
+}
 
 var Days = []Day{{}, Day1, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9, Day10, Day11, Day12,
-	Day13, Day14, Day15, Day16, Day17, Day18, Day19, Day20, Day21}
+	Day13, Day14, Day15, Day16, Day17, Day18, Day19, Day20, Day21, Day22, Day23, Day24, Day25}
