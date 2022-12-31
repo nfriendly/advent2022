@@ -16,3 +16,7 @@
 
 # Go workspace file
 go.work
+
+
+# Don't save puzzle inputs  into repo
+days/puzzleInputs/*
